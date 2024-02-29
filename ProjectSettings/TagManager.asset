@@ -14,7 +14,7 @@ TagManager:
   - Background
   - Platform
   - Player
-  - 
+  - Hazards
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1399666263
+    locked: 0
+  - name: Spikes
+    uniqueID: 233044135
     locked: 0
