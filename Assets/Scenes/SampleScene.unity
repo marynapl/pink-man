@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.241902, y: 0.7445816, z: -10.078014}
+  m_LocalPosition: {x: 14.260583, y: 9.445007, z: -10.078014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -384,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896722794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.2394176, y: -2.3749928, z: -10.078014}
+  m_LocalPosition: {x: 14.260583, y: 9.445007, z: -10.078014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -447,6 +447,11 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 885160108}
+--- !u!4 &898853408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+  m_PrefabInstance: {fileID: 3910391587011464993}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &982998704
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,8 +487,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.070452094, y: -0.17613077}
-  m_Size: {x: 1.2250245, y: 1.5772858}
+  m_Offset: {x: 0.029280782, y: -0.21730196}
+  m_Size: {x: 1.1426818, y: 1.4400485}
   m_Direction: 0
 --- !u!50 &982998706
 Rigidbody2D:
@@ -566,7 +571,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982998704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.39, y: -4.04, z: -0.050933253}
+  m_LocalPosition: {x: 16.11, y: 7.78, z: -0.050933253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -637,7 +642,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 10
-  jumpSpeed: 10
+  jumpSpeed: 7
+--- !u!1 &1130510608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1130510609}
+  m_Layer: 0
+  m_Name: Trampolines
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1130510609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130510608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.218383, y: 2.9188406, z: -0.00953532}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 898853408}
+  - {fileID: 1176805798}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1173450042
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +709,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1176805798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+  m_PrefabInstance: {fileID: 1692459707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1199975989
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,26 +819,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 3, y: -5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 4, y: -5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 5, y: -5, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -927,13 +950,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 16
+  - m_RefCount: 14
     m_Data: {fileID: 11400000, guid: 24d6265446b7748e3bb78c51f5d9deaf, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 16
+  - m_RefCount: 14
     m_Data: {fileID: 21300000, guid: da2176ef0629bfd42958a94b2bf225a4, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 12
+  - m_RefCount: 10
     m_Data:
       e00: 1
       e01: 0
@@ -970,7 +993,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 16
+  - m_RefCount: 14
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1096,23 +1119,7 @@ CompositeCollider2D:
         Y: -15625000
       - X: 28125000
         Y: -15625000
-    - - X: 60000000
-        Y: -46875000
-      - X: 58125000
-        Y: -44375000
-      - X: 51875000
-        Y: -44375000
-      - X: 50000000
-        Y: -45625000
-      - X: 50000000
-        Y: -46875000
-      - X: 48125000
-        Y: -44375000
-      - X: 41875000
-        Y: -44375000
-      - X: 40000000
-        Y: -45625000
-      - X: 40000000
+    - - X: 40000000
         Y: -46875000
       - X: 38125000
         Y: -44375000
@@ -1130,7 +1137,7 @@ CompositeCollider2D:
         Y: -45625000
       - X: 20000000
         Y: -50000000
-      - X: 60000000
+      - X: 40000000
         Y: -50000000
     - - X: 130000000
         Y: -46875000
@@ -1226,16 +1233,8 @@ CompositeCollider2D:
       - {x: 9.187493, y: -4.4375043}
       - {x: 9, y: -4.5625143}
       - {x: 9.00003, y: -5}
-    - - {x: 5.999971, y: -5}
-      - {x: 5.9999948, y: -4.6874933}
-      - {x: 5.8124866, y: -4.4375}
-      - {x: 5.187494, y: -4.4375043}
-      - {x: 5, y: -4.5625143}
-      - {x: 4.999932, y: -4.687409}
-      - {x: 4.8124866, y: -4.4375}
-      - {x: 4.187494, y: -4.4375043}
-      - {x: 4, y: -4.5625143}
-      - {x: 3.9999316, y: -4.687409}
+    - - {x: 3.999971, y: -5}
+      - {x: 3.9999948, y: -4.6874933}
       - {x: 3.812487, y: -4.4375}
       - {x: 3.1874936, y: -4.4375043}
       - {x: 3, y: -4.5625143}
@@ -2008,6 +2007,63 @@ PolygonCollider2D:
       - {x: -10.902144, y: -5.9321456}
       - {x: 34.964207, y: -5.895605}
       - {x: 34.886803, y: 14.899318}
+--- !u!1001 &1692459707
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1130510609}
+    m_Modifications:
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.128383
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.068841
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994428, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_Name
+      value: Trampoline 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
 --- !u!1 &1703136587
 GameObject:
   m_ObjectHideFlags: 0
@@ -5861,3 +5917,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3910391587011464993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1130510609}
+    m_Modifications:
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7716169
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9411595
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994369, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910391586699994428, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}
+      propertyPath: m_Name
+      value: Trampoline 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 056d02d1271a84b0a85883a9d4420fbd, type: 3}

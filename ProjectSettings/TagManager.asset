@@ -15,7 +15,7 @@ TagManager:
   - Platform
   - Player
   - Hazards
-  - 
+  - Trampoline
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: Spikes
     uniqueID: 233044135
+    locked: 0
+  - name: Trampoline
+    uniqueID: 1333880833
     locked: 0
